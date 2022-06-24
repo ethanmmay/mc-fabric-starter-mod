@@ -1,10 +1,10 @@
 # Fabric Mod Starter
 
-A sightly modified version of [fabric-example-mod](https://github.com/FabricMC/fabric-example-mod).
+A modified version of [fabric-example-mod](https://github.com/FabricMC/fabric-example-mod).
 
 ## Setup
 
-1. Make sure you have the [JDK 8](https://adoptium.net/temurin/releases/?version=8) installed
+1. Make sure you have the [JDK 18](https://www.oracle.com/java/technologies/downloads/#jdk18-windows) installed
 2. Clone this repository using git
 3. Run the following command:
 
