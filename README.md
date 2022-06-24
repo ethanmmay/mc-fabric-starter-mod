@@ -4,7 +4,7 @@ A sightly modified version of [fabric-example-mod](https://github.com/FabricMC/f
 
 ## Setup
 
-1. Make sure you have the JDK 8 installed
+1. Make sure you have the [JDK 8](https://adoptium.net/temurin/releases/?version=8) installed
 2. Clone this repository using git
 3. Run the following command:
 
