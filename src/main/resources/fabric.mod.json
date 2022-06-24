@@ -1,26 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "modid",
   "version": "${version}",
-  "name": "Starter Mod",
-  "description": "Describe your mod!",
-  "authors": ["Your Name"],
+
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
   "contact": {
-    "homepage": "https://horuslugo.com",
-    "sources": "https://github.com/HorusGoul/fabric-mod-starter"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "MIT",
-  "icon": "assets/starter/icon.png",
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
   "environment": "*",
   "entrypoints": {
-    "main": ["starter.StarterMod"]
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
   },
-  "mixins": ["starter.mixins.json"],
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
   "depends": {
-    "fabricloader": ">=0.7.3",
-    "minecraft": "1.15.x"
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
   },
   "suggests": {
-    "flamingo": "*"
+    "another-mod": "*"
   }
 }
